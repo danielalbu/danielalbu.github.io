@@ -1,0 +1,232 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head></head>
+  <title>Daniel Albu ::: Interactive Developer</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <meta name='description' content="Daniel Albu >> Flash Platform Developer (Flash / Flex) specializing in developing Flash games, applications and websites as well as Android apps" /> 
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Questrial">
+    <style>
+      body {
+		background-image:url('back.jpg');
+        font-family: 'Questrial', serif;
+        font-size: 20px;
+		color: #FFFFFF;
+		text-align: center
+		
+      }
+	  
+	  green {
+        font-family: 'Questrial', serif;
+        font-size: 26px;
+		color: #CDFF04;
+		text-align: center
+      }
+	  
+	   pink {
+        font-family: 'Questrial', serif;
+        font-size: 26px;
+		color: #FE3298;
+		text-align: center
+      }
+	  
+	  mainText
+	  {
+
+     left:50%;
+	   position: absolute; 
+	   top: 50%;
+	   display: table-cell; 
+	   vertical-align: middle;
+	  }
+	  
+	  
+like
+{
+margin-left:auto;
+margin-right:auto;
+position:absolute;
+bottom:0px;
+width: 99%;
+text-align:center
+z-index:6;
+}
+
+sideMenu
+{
+	margin-right:0;
+	position:absolute;
+	top: 10px;
+
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}
+a img {
+    border: none;
+}
+div.mod {
+
+}
+p.notes {
+    margin: 0 0 10px 0;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #999;
+    text-align: center;
+}
+p.notes a {
+    font-weight: bold;
+    color: #777;
+    border-bottom: 1px solid #ccc;
+ -webkit-transition: color .2s ease;
+ -moz-transition: color .2s ease;
+ -o-transition: color .2s ease;
+ transition: color .2s ease;
+}
+p.notes a:hover {
+    color: #555;
+}
+p.notes span {
+    margin: 0 4px;
+    color: #ccc;
+}
+#stamp {
+    display: block;
+    margin: 20px 0;
+    border: none;
+ -webkit-transition: opacity .2s ease;
+ -moz-transition: opacity .2s ease;
+ -o-transition: opacity .2s ease;
+ transition: opacity .2s ease;
+}
+#stamp:hover {
+    opacity: .7;
+}
+/* button styles */
+ 
+.btn {
+    display: inline-block;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow:
+ 0 8px 0 #1a74a1,  0 15px 20px rgba(0, 0, 0, .35);
+    -moz-box-shadow:
+ 0 8px 0 #1a74a1,  0 15px 20px rgba(0, 0, 0, .35);
+    box-shadow:
+ 0 8px 0 #1a74a1,  0 15px 20px rgba(0, 0, 0, .35);
+ -webkit-transition: -webkit-box-shadow .2s ease-in-out;
+ -moz-transition: -moz-box-shadow .2s ease-in-out;
+ -o-transition: -o-box-shadow .2s ease-in-out;
+ transition: box-shadow .2s ease-in-out;
+}
+.btn span {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: "cooper-black-std-1", "cooper-black-std-2", Helvetica, Arial, sans-serif;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(19, 65, 88, .8);
+    background: #3194c6;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3194c6), to(#5bacd6));
+    background: -moz-linear-gradient(#3194c6, #5bacd6);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+ -webkit-transition: -webkit-transform .2s ease-in-out;
+ -moz-transition: -moz-transform .2s ease-in-out;
+ -o-transition: -o-transform .2s ease-in-out;
+ transition: transform .2s ease-in-out;
+}
+.btn:active {
+    -webkit-box-shadow:
+ 0 8px 0 #1a74a1,  0 12px 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow:
+ 0 8px 0 #1a74a1,  0 12px 10px rgba(0, 0, 0, .3);
+    box-shadow:
+ 0 8px 0 #1a74a1,  0 12px 10px rgba(0, 0, 0, .3);
+    -webkit-transition: -webkit-transform 0s ease-in-out;
+    -moz-transition: -moz-transform 0s ease-in-out;
+    -o-transition: -o-transform 0s ease-in-out;
+    transition: transform 0s ease-in-out;
+}
+.btn:active span {
+    -webkit-transform: translate(0, 4px);
+    -moz-transform: translate(0, 4px);
+    -o-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+    -webkit-transition: -webkit-transform 0s ease-in-out;
+    -moz-transition: -moz-transform 0s ease-in-out;
+    -o-transition: -o-transform 0s ease-in-out;
+    transition: transform 0s ease-in-out;
+}
+    </style>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3574443-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </head>
+  <body>
+  
+<img src="logo.png"/>
+
+<div id="MainText" >
+
+  <br/>
+  <div class="mod">
+    <a href="#" class="btn"><span>About</span></a><a href="#" class="btn"><span>Portfolio</span></a><a href="#" class="btn"><span>Contact</span></a>
+</div>
+  <br/>
+   My name is <pink>Daniel Albu</pink><br/>
+I am a <green>freelance interactive developer from Israel. </green><br/>
+I've been working with Flash for more than 11 years (Flash 4 - Flash CS5.5) <br/>
+and I specialize in <pink>Flash</pink> & <green>HTML5</green> game & application development.<br/>
+<br/>
+
+I also create <green>Android</green> apps, Facebook pages and <pink>Facebook</pink> applications<br/>
+
+If you wish to contact me, feel free to send me an email at<br/>
+<green>albu.designs (at) gmail (dot) com</green>
+<br/>
+<br/>
+You can see my portfolio on my Flash site: <a href="http://www.danielalbu.com">DanielAlbu.com</a>
+<br/>
+But you'll need the Flash Player plugin installed on your device to do so.
+</div>
+
+<div id="socialMedia"> <a href="http://il.linkedin.com/in/danielalbu" target="_blank"><img src="images/LinkedIn.png" alt="LinkedIn" width="64" height="64" border="0"></a>
+  <a href="http://www.facebook.com/Daniel.Albu.Flash.Developer" target="_blank"><img src="images/Facebook.png" alt="LinkedIn" width="64" height="64" border="0"></a>
+  <a href="http://twitter.com/danielalbu" target="_blank"><img src="images/Twitter.png" alt="LinkedIn" width="64" height="64" border="0"></a>
+  <a href="http://www.flashdeveloper.co" target="_blank"><img src="images/Tumblr.png" alt="LinkedIn" width="64" height="64" border="0"></a>
+    <a href="skype:albu.designs?call"><img src="images/Skype.png" alt="LinkedIn" width="64" height="64" border="0"></a>
+  
+  </div>
+
+  
+
+<sideMenu>
+
+</sideMenu>
+
+<center>
+<like><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=226446120738792&amp;xfbml=1"></script><fb:like href="http://www.facebook.com/Daniel.Albu.Flash.Developer" send="true" width="450" show_faces="false" colorscheme="dark" font="trebuchet ms"></fb:like>
+<iframe allowtransparency="true" frameborder="0" scrolling="no"
+  src="http://platform.twitter.com/widgets/follow_button.html?screen_name=danielalbu&button=grey"
+  style="width:300px; height:20px;"></iframe> </like>
+</center>
+  </body>
+</html>

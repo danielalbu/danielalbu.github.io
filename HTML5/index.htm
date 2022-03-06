@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+<head>
+  <title>Daniel Albu >>> Interactive Developer</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <meta name='description' content="Daniel Albu >> Flash Platform Developer (Flash / Flex) specializing in developing Flash games, applications and websites as well as Android apps" /> 
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Questrial">
+	<style media="screen" type="text/css">
+	html,
+	body {
+		margin:0;
+		padding:0;
+		height:100%;
+				background-image:url('back.jpg');
+        font-family: 'Questrial', serif;
+        font-size: 20px;
+        color: #FFFFFF;
+    background-color:#000000;
+		text-align: center;
+	}
+
+	 green {
+        font-family: 'Questrial', serif;
+        font-size: 26px;
+		color: #CDFF04;
+		text-align: center
+      }
+	  
+	   pink {
+        font-family: 'Questrial', serif;
+        font-size: 26px;
+		color: #FE3298;
+		text-align: center
+      }
+	#container {
+		min-height:100%;
+		position:relative;
+	}
+	#header {
+		background:#ff0;
+		padding:10px;
+	}
+	#body {
+		padding:10px;
+		padding-bottom:41px;	/* Height of the footer */
+	}
+	#footer {
+		position:absolute;
+		bottom:0;
+		width:100%;
+		height:41px;			/* Height of the footer */
+		background-image: url(bottomBack.png); 
+   	 	background-position: bottom;
+   	 	background-repeat: repeat-x;
+	}
+	  mainText
+	  {
+      width: 100%;
+	  
+     margin: 0 auto -41;
+     height: auto;
+     min-height: 100%;
+     
+	   
+	   
+	  }
+
+	   /* Removes Mobile Highlight */ *{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+
+like
+{
+margin-left:auto;
+margin-right:auto;
+position:absolute;
+bottom:0px;
+width: 99%;
+text-align:center
+}
+
+
+logoMain
+{
+  margin-right:0;
+  position: absolute;
+  top: 10px;
+
+}
+
+	facebookLike
+    {
+      width: 300px;
+    float:left;
+    padding-top:15px;
+    padding-left:10px;
+    }
+	/* other non-essential CSS */
+	#header p,
+	#header h1 {
+		margin:0;
+		padding:10px 0 0 10px;
+	}
+	#footer p {
+		margin:0;
+		padding:10px;
+	}
+	</style>
+	<!--[if lt IE 7]>
+	<style media="screen" type="text/css">
+	#container {
+		height:100%;
+	}
+	</style>
+	<![endif]-->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3574443-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+  </head>
+  <body>
+    <script>
+    $(document).ready(function()
+    {
+     $(document).mousemove(function(e)
+     {
+       //$("mainText").css({left: (e.pageX/400)});
+       //$("mainText").animate({"left": +=e.pageX/100}, "slow");
+       console.log(e.pageX);
+       //$("follow").css({bottom: (e.pageX)});
+        //console.log("Done");
+       //console.log($("like").css.left);
+
+     }) 
+      
+      $("mainText").fadeTo(0,0,function()
+     {
+      //animation complete
+     });
+
+     $("mainText").fadeTo(3000,1,function()
+     {
+      //animation complete
+      console.log("Done");
+      
+     });
+
+   
+     
+
+    }
+  );
+    
+  </script>
+</head>
+<body>
+
+<div id="container">
+	<div id="body">
+		<!-- Body start -->
+		<mainText>
+
+<img src="logo.png"/>
+
+<div style='width: 100%'>
+
+
+  <br/>
+   My name is <pink>Daniel Albu</pink><br/>
+I am a <green>freelance interactive developer from Israel</green><br/>
+with more than ten years of experience in the production and deployment<br/> of rich media websites, games, and applications.<br/>
+I mainly specialize in <pink>Flash</pink> development <br/>but I also specialize in <green>HTML5</green> game & application development.<br/>
+<br/><br/>
+
+I also create <green>Android</green> apps and <pink>Facebook</pink> applications<br/>
+
+If you wish to contact me, feel free to send me an email at<br/>
+<green>contact (at) danielalbu (dot) com</green>
+<br/>
+<br/>
+You can review my portfolio on my Flash site: <a href="http://www.danielalbu.com">DanielAlbu.com</a>
+<br/>
+But you'll need the Flash Player plugin installed on your device to do so.
+<br/>
+<br/>
+</div>
+
+<div id="socialMedia"> <a href="http://il.linkedin.com/in/danielalbu" target="_blank"><img src="images/LinkedIn.png" alt="LinkedIn" width="64" height="64" border="0"></a>
+  <a href="http://www.facebook.com/Daniel.Albu.Flash.Developer" target="_blank"><img src="images/Facebook.png" alt="LinkedIn" width="64" height="64" border="0"></a>
+  <a href="http://twitter.com/danielalbu" target="_blank"><img src="images/Twitter.png" alt="LinkedIn" width="64" height="64" border="0"></a>
+  <a href="http://www.flashdeveloper.co" target="_blank"><img src="images/Tumblr.png" alt="LinkedIn" width="64" height="64" border="0"></a>
+    <a href="skype:albu.designs?call"><img src="images/Skype.png" alt="LinkedIn" width="64" height="64" border="0"></a>
+  
+  </div>
+</mainText>
+		<!-- Body end -->
+	</div>
+	<div id="footer">
+		<!-- Footer start -->
+		 <!--<a href="mailto:contact@danielalbu.com"><img src="images/catfish_right_email.png"></a><img src="images/catfish_right_diese.png"><img src="images/catfish_right_follow.png"><a href="http://twitter.com/mamzellejuu" class="twitter"><img src="images/catfish_twitter.png"></a><a href="http://flickr.com/mamzellejuu" class="flickr"><img src="images/catfish_flickr.png"></a>-->
+        <iframe allowtransparency="true" frameborder="0" scrolling="no"
+  src="http://platform.twitter.com/widgets/follow_button.html?screen_name=danielalbu&button=grey"
+  style="width:300px; height:20px;  padding-top:15px;float:right"></iframe>
+
+ <facebookLike> <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=226446120738792&amp;xfbml=1"></script><fb:like href="http://www.facebook.com/Daniel.Albu.Flash.Developer" send="false" layout="button_count" width="450" show_faces="false"></fb:like></facebookLike>
+		<!-- Footer end -->
+	</div>
+</div>
+
+
+
+</body>
+</html>
